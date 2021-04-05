@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/www.rodigemici.com/static/css/main.c40f79a3.chunk.css",
-    "main.js": "/www.rodigemici.com/static/js/main.f7fe137e.chunk.js",
-    "main.js.map": "/www.rodigemici.com/static/js/main.f7fe137e.chunk.js.map",
-    "runtime-main.js": "/www.rodigemici.com/static/js/runtime-main.a521093b.js",
-    "runtime-main.js.map": "/www.rodigemici.com/static/js/runtime-main.a521093b.js.map",
-    "static/css/2.ec02d681.chunk.css": "/www.rodigemici.com/static/css/2.ec02d681.chunk.css",
-    "static/js/2.db855832.chunk.js": "/www.rodigemici.com/static/js/2.db855832.chunk.js",
-    "static/js/2.db855832.chunk.js.map": "/www.rodigemici.com/static/js/2.db855832.chunk.js.map",
-    "index.html": "/www.rodigemici.com/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/www.rodigemici.com/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.c40f79a3.chunk.css.map": "/www.rodigemici.com/static/css/main.c40f79a3.chunk.css.map",
-    "static/js/2.db855832.chunk.js.LICENSE.txt": "/www.rodigemici.com/static/js/2.db855832.chunk.js.LICENSE.txt",
-    "static/media/cvrodi.1a55061e.pdf": "/www.rodigemici.com/static/media/cvrodi.1a55061e.pdf"
+    "main.css": "/rodigemici.com/static/css/main.c40f79a3.chunk.css",
+    "main.js": "/rodigemici.com/static/js/main.f7fe137e.chunk.js",
+    "main.js.map": "/rodigemici.com/static/js/main.f7fe137e.chunk.js.map",
+    "runtime-main.js": "/rodigemici.com/static/js/runtime-main.43cfbb8b.js",
+    "runtime-main.js.map": "/rodigemici.com/static/js/runtime-main.43cfbb8b.js.map",
+    "static/css/2.ec02d681.chunk.css": "/rodigemici.com/static/css/2.ec02d681.chunk.css",
+    "static/js/2.294d7df4.chunk.js": "/rodigemici.com/static/js/2.294d7df4.chunk.js",
+    "static/js/2.294d7df4.chunk.js.map": "/rodigemici.com/static/js/2.294d7df4.chunk.js.map",
+    "index.html": "/rodigemici.com/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/rodigemici.com/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.c40f79a3.chunk.css.map": "/rodigemici.com/static/css/main.c40f79a3.chunk.css.map",
+    "static/js/2.294d7df4.chunk.js.LICENSE.txt": "/rodigemici.com/static/js/2.294d7df4.chunk.js.LICENSE.txt",
+    "static/media/cvrodi.1a55061e.pdf": "/rodigemici.com/static/media/cvrodi.1a55061e.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a521093b.js",
+    "static/js/runtime-main.43cfbb8b.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.db855832.chunk.js",
+    "static/js/2.294d7df4.chunk.js",
     "static/css/main.c40f79a3.chunk.css",
     "static/js/main.f7fe137e.chunk.js"
   ]
