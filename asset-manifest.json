@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.32b3c118.chunk.css",
-    "main.js": "/static/js/main.c80b1f47.chunk.js",
-    "main.js.map": "/static/js/main.c80b1f47.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a29335d3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a29335d3.js.map",
-    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
-    "static/js/2.dd77e7ce.chunk.js": "/static/js/2.dd77e7ce.chunk.js",
-    "static/js/2.dd77e7ce.chunk.js.map": "/static/js/2.dd77e7ce.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.32b3c118.chunk.css.map": "/static/css/main.32b3c118.chunk.css.map",
-    "static/js/2.dd77e7ce.chunk.js.LICENSE.txt": "/static/js/2.dd77e7ce.chunk.js.LICENSE.txt",
-    "static/media/cvrodi.1a55061e.pdf": "/static/media/cvrodi.1a55061e.pdf"
+    "main.css": "/portfolio-website/static/css/main.32b3c118.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.c80b1f47.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.c80b1f47.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.203011c5.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.203011c5.js.map",
+    "static/css/2.ec02d681.chunk.css": "/portfolio-website/static/css/2.ec02d681.chunk.css",
+    "static/js/2.d7e1e282.chunk.js": "/portfolio-website/static/js/2.d7e1e282.chunk.js",
+    "static/js/2.d7e1e282.chunk.js.map": "/portfolio-website/static/js/2.d7e1e282.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/portfolio-website/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.32b3c118.chunk.css.map": "/portfolio-website/static/css/main.32b3c118.chunk.css.map",
+    "static/js/2.d7e1e282.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.d7e1e282.chunk.js.LICENSE.txt",
+    "static/media/cvrodi.1a55061e.pdf": "/portfolio-website/static/media/cvrodi.1a55061e.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a29335d3.js",
+    "static/js/runtime-main.203011c5.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.dd77e7ce.chunk.js",
+    "static/js/2.d7e1e282.chunk.js",
     "static/css/main.32b3c118.chunk.css",
     "static/js/main.c80b1f47.chunk.js"
   ]
