@@ -26,11 +26,11 @@
 
 }
 
-.fa-react{
+/* .fa-react{
     margin-left: 0.5rem;
     font-size: 1rem;
 
-}
+} */
 
 .nav-menu {
     display: grid;
@@ -125,11 +125,79 @@
 }
 
 @media screen and (max-width:960px){
-    .NavbarItems{
-        position:relative;
-    }
 
-    .nav-menu{
+ .nav-links{
+     font-size: 11px;
+     padding: 15px;
+ }
+
+
+ .projects-active{
+
+    color: white;
+    transition: 0.2s ease-in;
+    
+}
+
+.about-active{
+
+    color: white;
+    transition: 0.2s ease-in;
+    
+}
+
+.contact-active{
+
+    color: white;
+    transition: 0.2s ease-in;
+    
+}
+
+
+.cv-active{
+
+    color: white;
+    transition: 0.2s ease-in;
+    
+}
+
+  
+
+ .menu-item{
+
+   display: none;
+}
+
+ 
+
+ .nav-menu{
+      grid-template-columns: repeat(3,auto);
+      margin-right: 0;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+      margin-right: 40px;
+       
+ }
+
+ /* .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 20px;
+    list-style: none;
+    
+    width: 75vw;
+    
+    margin-right: 2rem;
+} */
+
+
+
+    /* .NavbarItems{
+        position:relative;
+    } */
+
+    /* .nav-menu{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -141,38 +209,38 @@
         transition: all 0.5s ease;
         z-index: 1;
 
-    }
+    } */
 
-    .nav-menu.active {
+    /* .nav-menu.active {
         background: black;
         
         left: 0;
         opacity: 90%;
         transition: all 0.5s ease;
         
-    }
-
+    } */
+/* 
     .nav-links{
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
         
-    }
+    } 
 
     /* .nav-links:hover{
        
     } */
 
-    .navbar-logo{
+    /* .navbar-logo{
         position: absolute;
         top:0;
         left: 0;
         transform: translate(25%, 50%);
 
-    }
+    } */
 
-    .menu-icon{
+    /* .menu-icon{
         display: block;
         position: absolute;
         top: 0;
@@ -181,13 +249,9 @@
         font-size: 1.8rem;
         cursor:pointer;
     }
+  */
 
-    .fa-times{
-        color: white;
-        font-size: 2rem;
-    }
-
-    .nav-links-mobile{
+    /* .nav-links-mobile{
         display:block;
         text-align: center;
         padding: 1.5rem;
@@ -199,16 +263,12 @@
         color: white;
         font-size:1.5rem;
 
-    }
+    } */
 
-    .nav-links-mobile:hover{
 
-        background: white;
-       color: blue;
-       transition: 250ms;
 
-    }
 
+ 
 
 
 
