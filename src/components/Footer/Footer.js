@@ -50,9 +50,9 @@ function Footer() {
 
                            <li> <a className = "email-button" href={"mailto:rodix08@gmail.com"}>rodix08@gmail.com <i class="fas fa-envelope"></i></a></li>
                            
-                           <li> <a className = "socials-button1" href = "./projectlink5"> Linkedin <i className="fab fa-linkedin"></i></a></li>
+                           <li> <a className = "socials-button1" href = "https://www.linkedin.com/"> Linkedin <i className="fab fa-linkedin"></i></a></li>
                         
-                            <li> <a className = "socials-button2" href = "./projectlink6">Github <i className="fab fa-github"></i></a></li>
+                            <li> <a className = "socials-button2" href = "https://github.com/rodigb">Github <i className="fab fa-github"></i></a></li>
                              
                             </ul>
 

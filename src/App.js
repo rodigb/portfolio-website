@@ -2,7 +2,8 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
+ 
+import { HashRouter as  Router, Route, Switch, Link, Redirect } from "react-router-dom";
 import MainPage from "./pages";
 import NotFoundPage from "./pages/404";
 import ProjectsPage from "./pages/Projects";
@@ -24,14 +25,15 @@ function App() {
     
 
   
-
+     
     
-
+     
     <div className="App">
+      <Navbar></Navbar>
       <div className="page-container">
       
      
-     <Navbar></Navbar>
+     
      
      
      
@@ -39,6 +41,7 @@ function App() {
      
 
        <Router>
+         
        <Switch>
        {/* <Redirect exact from ="/" to = "/MainPage"/> */}
        <Route exact path ="/MainPage" component={MainPage}/>
@@ -57,17 +60,18 @@ function App() {
 
        </Switch>
 
-
-     </Router>
-
-     <Router><MainPage></MainPage></Router>
-     </div>
-     <div className="footer-position">
+       <MainPage></MainPage>
+       <div className="footer-position">
        
     <Footer>  </Footer></div>
+     </Router>
+
+      
+     </div>
+     
      
     </div>
-
+     
   );
 }
 

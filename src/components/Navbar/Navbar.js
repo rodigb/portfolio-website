@@ -5,7 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import { Link } from "react-scroll";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import { HashRouter as  Router, Route, Switch, Redirect } from "react-router-dom";
 
 
 import './Navbar.css'
@@ -22,6 +22,7 @@ class Navbar extends Component{
     render(){
         
         return(
+
             <AppBar position ="fixed">
             <nav className="NavbarItems">
                 <Link className="navbar-logo" 
@@ -33,7 +34,7 @@ class Navbar extends Component{
                 duration={500}
 
                 ><h1 className="menu-item"><i class="fas fa-home"></i> Home </h1></Link>
-                <div className="menu-icon" onClick={this.handleClick}>
+              <div className="menu-icon" onClick={this.handleClick}>
                     
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                     
@@ -85,11 +86,7 @@ class Navbar extends Component{
                     {MenuItems.map((item, index) => {
                         return(
 
-                            
 
-                            
-
-                            
                             <li key={index}>
                                 <a className={item.cName} href = {item.url}>
                                     {item.title}

@@ -7,6 +7,7 @@ import ModalContainer from '../components/ProjectContainer/ModalContainer';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
+import { HashRouter as  Router, Route, Switch, Redirect } from "react-router-dom";
 
  
 
@@ -33,7 +34,7 @@ const AboutPage= () => {
             <li><a className ="download-text" href='https://github.com/rodigb' > Github </a> <i className="fab fa-github"></i> </li>  
              
             <li>London, UK <i class="fas fa-map-marker-alt"></i></li>
-            <li><a className ="download-text" href='./CV' > Resume/CV</a> <i class="fas fa-download"></i> </li>  
+           <Router><li><a className ="download-text" href='/#/CV' > Resume/CV</a> <i class="fas fa-download"></i> </li> </Router>  
             <li> <a className = "email-about" href={"mailto:rodix08@gmail.com"}>Email <i class="fas fa-envelope"></i></a></li>  
             
 
