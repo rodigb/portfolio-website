@@ -15,12 +15,14 @@ import Project3Page from "./pages/projectlink3";
 import Project4Page from "./pages/projectlink4";
 import Project5Page from "./pages/projectlink5";
 import Project6Page from "./pages/projectlink6";
-
+ 
  
 
  
 
 function App() {
+
+  
   return (
     
 
@@ -32,13 +34,7 @@ function App() {
       <Navbar></Navbar>
       <div className="page-container">
       
-     
-     
-     
-     
-     
-     
-     
+ 
 
        <Router>
          

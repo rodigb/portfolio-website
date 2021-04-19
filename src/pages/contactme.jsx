@@ -5,6 +5,7 @@ import emailjs from 'emailjs-com';
 
 
 
+
 function sendEmail(e) {
     e.preventDefault();
 
@@ -20,7 +21,11 @@ emailjs.sendForm('service_qmfp5xh', 'template_urwwi38', e.target, 'user_vv8OcVl4
 
 
 function ContactMe() {
+
+    
     return (
+
+        
 
 
         <div className ="contactnav" id = "ContactMe">
@@ -98,7 +103,7 @@ function ContactMe() {
         </div>
 
         
-    )
+    ) 
 }
 
 export default ContactMe
